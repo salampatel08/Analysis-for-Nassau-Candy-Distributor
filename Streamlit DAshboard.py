@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("C:\\Users\\ASUS\\.vscode\\Factory-to-Customer Shipping Route Efficiency Analysis for Nassau Candy Distributor\\Nassau Candy Distributor.csv")
+df = pd.read_csv("Nassau Candy Distributor.csv")
+
 df['Order Date'] = pd.to_datetime(df['Order Date'], format="%Y-%m-%d", errors="coerce")
 df['Ship Date'] = pd.to_datetime(df['Ship Date'], format="%Y-%m-%d", errors="coerce")
 df['Lead_Time'] = (df['Ship Date'] - df['Order Date']).dt.days
