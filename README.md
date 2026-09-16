@@ -13,8 +13,8 @@ The goal is to highlight fastest and slowest routes, identify bottlenecks, and p
 
 ## ⚙️ Tools & Technologies
 - **Python**: Pandas, NumPy for data processing
-- **Visualization**: Matplotlib, Seaborn, Plotly
-- **Dashboard**: Streamlit for interactive web app
+- **Visualization**: Matplotlib, Seaborn, Plotly,PowerBI
+- **Dashboard**: Streamlit for interactive web app,PowerBI
 - **Version Control**: Git & GitHub
 
 ---
